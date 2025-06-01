@@ -216,7 +216,8 @@ body {
     }
 
     .hero img {
-        height: 40vh;
+        height: auto;
+        width: 95vw;
         margin: 2vh;
         border-radius: 2vh;
     }
@@ -243,7 +244,8 @@ body {
     }
 
     .image img {
-        height: 60vh;
+        height: auto;
+        width: 80vw;
         border-radius: 2vh;
     }
     
@@ -278,7 +280,7 @@ body {
     .order-grid {
         height: auto;
         grid-template-columns: repeat(2,1fr);
-        gap: 2vh;
+        gap: 1vh;
     }
 
     .grid-children {
@@ -287,13 +289,13 @@ body {
     }
 
     .grid-children img {
-        height: 25vh;
+        height: 20vh;
     }
 
     .grid-children p {
         font-size: 2vh;
         line-height: 4vh;
-        height: 10vh;
+        height: auto;
     }
 
     .grid-children p span {
